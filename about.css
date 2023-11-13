@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-btn{
+background-color: red;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 7px 15px;
+}
+.flex-drop-icon a{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-icon:focus{
+box-shadow: none !important;
+}
+.nav-icon{
+border: none !important;
+}
+.icon-black{
+color: black;
+}
+.nav-text-color a{
+color: #585858;
+}
+.nav-text-hover-color a:hover{
+color: red;
+background-color: transparent !important;
+}
+.nav-text-color a:focus{
+color: red;
+}
+.margin-pricing{
+margin-top: 70px;
+}
+@media screen and (min-width: 992px){
+.margin-pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+.up-btn{
+  padding: 10px 14px;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  float: right;
+}
+.about-section{
+    margin-top: 50px;
+}
+.faq{
+  background-color: #d33838;
+  height: 2px;
+  width: 140px;
+  margin-left: 15px;
+}
+.faq-flex{
+  display: flex;
+  align-items: center;
+}
+.team-image{
+    height: 163px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.hardwork:hover img{
+    transform: scale(1.2);
+    transition: .5s;
+}
+.progress-style{
+  border-radius: none !important;
+  background-color: #43515c;
+  width: 100%;
+}
+.footer-icon{
+  margin-left: 15px;
+  background-color: #43515c;
+  padding: 2px 7px;
+  border-radius: 4px;
+  color: white;
+}
+.footer-icon2{
+  background-color: #43515c;
+  padding: 2px 7px;
+  border-radius: 4px;
+  color: white;
+}
+.footer-icon:hover{
+  background-color: red;
+  transition: 1s;
+}
+.footer-icon:hover{
+  background-color: red;
+  transition: .4s;
+}
+.footer-icon2:hover{
+  background-color: red;
+  transition: .4s;
+}
+.footer-icon{
+  background-color: #43515c;
+}
+.footer-sub-input{
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  padding: 5px 10px;
+}
+.footer-sub-input .footer-sub-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  padding: 0 15px;
+  height: 40px;
+  background: #d9232d;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+.sub-input{
+  border: 0;
+  padding: 4px;
+  border-radius: 4px;
+  width: calc(100% - 100px);
+}
+.bg-footer{
+  background-color: #334452;
+}
